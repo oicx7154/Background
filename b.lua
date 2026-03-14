@@ -28,9 +28,7 @@ Config.Themes = {
             Icon = "#E0D8EA"         -- [图标] 偏白的浅灰色
         }
     },
-    }
 }
-
 function Config.GetImage()
     -- 随机抽取一个配置包
     math.randomseed(os.time())
