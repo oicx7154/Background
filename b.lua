@@ -29,7 +29,7 @@ Config.Themes = {
         }
     },
     {
-        ImageID = "rbxassid://105141163226646",
+        ImageID = "rbxassetid://105141163226646",
         theme = {
             Name = "3",
             Outline = Color3.fromRGB(6, 158, 179),
