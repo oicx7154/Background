@@ -28,6 +28,29 @@ Config.Themes = {
             Icon = Color3.fromHex("#D0D0D5")
         }
     },
+    {
+        ImageID = "rbxassid://105141163226646",
+        theme = {
+            Name = "3",
+            Outline = Color3.fromRGB(6, 158, 179),
+            Text = Color3.fromRGB(47, 88, 179),
+            Placeholder = Color3.fromRGB(128, 128, 128),
+            Button = Color3.fromRGB(6, 158, 179),
+        }
+    },
+    {
+        ImageID = "rbxassetid://133242176640763",
+        theme = {
+            Name = "4",
+            Accent = Color3.fromHex("#FFD700"),
+            Background = Color3.fromHex("#111111"),
+            Outline = Color3.fromRGB(0, 82, 78),
+            Text = Color3.fromHex("#FFD700"),
+            Placeholder = Color3.fromHex("#888888"),
+            Button = Color3.fromHex("#222222"),
+            Icon = Color3.fromHex("#E0E0E0")
+        }
+    }
 }
 function Config.GetImage()
     math.randomseed(os.time())
